@@ -1,21 +1,54 @@
-git commit ## used to save changes made
-git config --global user.name "user_name"
-git config --global user.email "email_id"
-git config --list      ## it will list all the details like user name, email etc.
-cd ## change directory
-git clone <link>
-ls ## used to list all files except hidden files
-ls -a ## used to list all files including hidden files
-## folders that are being tracked by git always have a hidden folder named ".git"
-git status ## used to check the status of the files that are being added or modified or changed
+git commit ## used to save changes made.
+
+git config --global user.name "user_name".
+
+git config --global user.email "email_id".
+
+git config --list    ## it will list all the details like user name, email etc.
+
+cd ## change directory.
+
+git clone <link> ## used to clone a remote repo in your local system.
+
+ls ## used to list all files except hidden files.
+ls -a ## used to list all files including hidden files.
+
+## folders that are being tracked by git always have a hidden folder named ".git".
+
+git status ## used to check the status of the files that are being added or modified or changed.
 ## we have four types of status 
-1.untracked files:- files that git don't track
-2.modified files:- changed files
-3.staged files:-files that are ready to be committed
-4.unmodified files:- files that are unchanged 
-git add "file_name" ## used to add the modified or changed file it important before commiting
-git add . ## is used to add multiple changes
-git commit ## is used to save all the changes made to repo i.e it keeps the record
-git commit -m "commit_message"
-git log ## is used to see all the commits made to the repo
-git push origin main ## used to push the file from local system to git i.e pushing from local to remote
+1.untracked files:- files that git don't track.
+2.modified files:- changed files.
+3.staged files:-files that are ready to be committed.
+4.unmodified files:- files that are unchanged.
+
+git add "file_name" ## used to add the modified or changed file it important before commiting.
+git add . ## is used to add multiple changes.
+
+git commit ## is used to save all the changes made to repo i.e it keeps the record.
+git commit -m "commit_message".
+
+git log ## is used to see all the commits made to the repo.
+git push origin main ## used to push the file from local system to git i.e pushing from local to remote.
+
+cd .. # is used to come out the current directory you are in.
+mkdir <folder_name> ## is used to make a new folder within your main folder.
+
+git init ## is used to intiazlize the git in the file which we have created locally on our system i.e it intializes the new repo.
+git remote add origin <link> ## it is used to link our local git repo to remote git repo. 
+git remote -v ## used to check the origin.
+
+git push -u(upstream) origin main ## this command set the upstream i.e after this command we don't have to mention the origin name agian and agian. 
+
+touch <file_name> ## used to create file.
+cat <file_name> ## used to view the content of the file.
+
+workflow of when working when creating local repo:
+create github_repo --> clone repo --> make changes --> add --> commit --> push.
+
+git branch ## used to check the branch name.
+git branch -M "branch_name(main)".
+git checkout <new_branch_name> ## used to change from 1 branch to the other.
+git checkout -b <new_branch_name> ## used to create new branch.
+git branch -d <branch_name> ## used to delete a branch.
+
