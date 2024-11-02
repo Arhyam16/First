@@ -1,0 +1,14 @@
+git commit ## used to save changes made
+git config --global user.name "user_name"
+git config --global user.email "email_id"
+git config --list      ## it will list all the details like user name, email etc.
+cd ## change directory
+git clone <link>
+ls ## used to list all files except hidden files
+ls -a ## used to list all files including hidden files
+## folders that are being tracked by git always have a hidden folder named ".git"
+## we have four types of status 
+1.untracked files:- files that git don't track
+2.modified files:- changed files
+3.staged files:-files that are ready to be committed
+4.unmodified files:- files that are unchanged 
