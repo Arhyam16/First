@@ -14,4 +14,8 @@ git status ## used to check the status of the files that are being added or modi
 3.staged files:-files that are ready to be committed
 4.unmodified files:- files that are unchanged 
 git add "file_name" ## used to add the modified or changed file it important before commiting
-git commit ## is used to save all the changes made to repo
+git add . ## is used to add multiple changes
+git commit ## is used to save all the changes made to repo i.e it keeps the record
+git commit -m "commit_message"
+git log ## is used to see all the commits made to the repo
+git push origin main ## used to push the file from local system to git i.e pushing from local to remote
